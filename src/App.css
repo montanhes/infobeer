@@ -1,0 +1,72 @@
+body {
+  background-color: #fff;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.header {
+  background-color: #D2CEC5;
+  color: white;
+  font-family: 'Merriweather', serif;
+  padding: 60px 0px;
+}
+
+.site-title {
+  font-family: 'Merriweather', serif;
+  color: #58A072;
+  font-size: 3em;
+  font-weight: 790;
+}
+.site-title span {
+  color: #003C47;
+}
+
+.beer-list {
+  padding: 20px 0px;
+  list-style: none;
+  margin: 0;
+}
+
+.beer-list .beer-name {
+  color: #003C47;
+}
+
+.beer-list .beer-tagline {
+  color: #58A072;
+  font-size: .8em;
+}
+
+.beer {
+  margin-bottom: 10px;
+}
+
+.beer a {
+  display: flex;
+  text-decoration: none;
+}
+
+.beer-icon {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+
+.search-bar {
+  padding-top: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  border-radius: 0;
+  font-size: 1.5em;
+  border: none;
+  padding: 5px 15px;
+  background-color: #fff;
+  border-bottom: 1px solid;
+  color: #58A072;
+}
