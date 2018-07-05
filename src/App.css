@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  width: 70%;
+  width: 95%;
   margin: auto;
 }
 
@@ -14,7 +14,8 @@ body {
   padding: 60px 0px;
 }
 
-.site-title {
+.site-title { text-decoration: none; }
+.site-title h1 {
   font-family: 'Merriweather', serif;
   color: #58A072;
   font-size: 3em;
@@ -65,8 +66,14 @@ body {
   border-radius: 0;
   font-size: 1.5em;
   border: none;
-  padding: 5px 15px;
+  padding: 5px 0px;
   background-color: #fff;
   border-bottom: 1px solid;
   color: #58A072;
+}
+
+@media (min-width: 769px) {
+  .container {
+    width: 70%;
+  }
 }
