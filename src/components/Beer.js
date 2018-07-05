@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 
 class Beer extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
 	render() {
 		return (
             <li className="beer">

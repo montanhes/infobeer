@@ -30,11 +30,13 @@ class Beerdetails extends Component {
         if(this.state.beer) {
             console.log(this.state.beer)
             return (
-                <div>
-                    <h1>{this.state.beer.name}</h1>
-                    <h3>{this.state.beer.tegline}</h3>
-                    <p>{this.state.beer.description}</p>
-                    <img src={this.state.beer.image_url} />
+                <div class="beer-info">
+                    <img src={this.state.beer.image_url} className="beer-img" alt={this.state.beer.name} />
+                    <div className="beer-data">
+                        <h2>{this.state.beer.name}</h2>
+                        <h3>{this.state.beer.tagline}</h3>
+                        <p>{this.state.beer.description}</p>
+                    </div>
                 </div>
             )
         } else {

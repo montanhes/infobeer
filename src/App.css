@@ -56,6 +56,35 @@ body {
   margin-right: 10px;
 }
 
+.beer-info {
+  display: flex;
+  margin: 30px auto;
+  width: 50%;
+}
+
+.beer-info .beer-img {
+  height: 300px;
+  width: auto;
+}
+
+.beer-data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: end;
+}
+.beer-data p {
+  margin-top: 20px;
+}
+
+h2{
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 1.25em;
+  margin-bottom: 5px;
+}
 
 .search-bar {
   padding-top: 20px;
