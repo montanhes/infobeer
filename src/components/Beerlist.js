@@ -18,14 +18,12 @@ class Beerlist extends Component {
             }
         })
         .then(response => {
-        console.log(response.data)
             this.setState({ beerList: response.data })
         })
         .catch(function (error) {
             console.log(error)
         })
         .then(function () {
-            // always executed
         })
     }
 
@@ -43,13 +41,13 @@ class Beerlist extends Component {
             })
         return list 
         } else {
-            return ( <div>empty</div> )
+            return ( <div>Loading...</div> )
         }
     }
 
 	render() {
 		return (
-            <ul className="beer-list">
+            <ul className="beer-list" id="beer-list">
                 {this.handleBeerList()}
             </ul>
 		)

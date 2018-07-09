@@ -1,19 +1,41 @@
 body {
   background-color: #fff;
 }
-
 .container {
   width: 95%;
   margin: auto;
 }
-
+h2{
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 1.25em;
+  margin-bottom: 5px;
+}
+.button {
+  display: inline-block;
+  border: 1px solid #58A072;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: unset;
+  background-color: #58A072;
+  color: #fff;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+.button:hover {
+  background-color: #003C47;
+  border-color: #003C47;
+}
 .header {
   background-color: #D2CEC5;
   color: white;
   font-family: 'Merriweather', serif;
   padding: 60px 0px;
 }
-
 .site-title { text-decoration: none; }
 .site-title h1 {
   font-family: 'Merriweather', serif;
@@ -24,85 +46,54 @@ body {
 .site-title span {
   color: #003C47;
 }
-
 .beer-list {
   padding: 20px 0px;
   list-style: none;
   margin: 0;
 }
-
 .beer-list .beer-name {
   color: #003C47;
 }
-
 .beer-list .beer-tagline {
   color: #58A072;
   font-size: .8em;
 }
-
 .beer {
   margin-bottom: 10px;
 }
-
 .beer a {
   display: flex;
   text-decoration: none;
 }
-
 .beer-icon {
   font-size: 1.5em;
   display: flex;
   align-items: center;
-  margin-right: 10px;
 }
-
 .beer-info {
   display: flex;
-  margin: 30px auto;
-  width: 50%;
 }
-
 .beer-info .beer-img {
   height: 300px;
   width: auto;
 }
-
 .beer-data {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  justify-content: end;
+  margin-left: 10px;
 }
-.beer-data p {
-  margin-top: 20px;
+.beer-svg {
+  width: 30px;
 }
-
-h2{
-  font-size: 2em;
-  margin-bottom: 5px;
+.beer-data h3 {
+  margin-bottom: 20px;
 }
-h3 {
-  font-size: 1.25em;
-  margin-bottom: 5px;
-}
-
-.search-bar {
-  padding-top: 20px;
-}
-
-.search-bar input {
-  width: 100%;
-  border-radius: 0;
-  font-size: 1.5em;
-  border: none;
-  padding: 5px 0px;
-  background-color: #fff;
-  border-bottom: 1px solid;
-  color: #58A072;
-}
-
 @media (min-width: 769px) {
   .container {
     width: 70%;
+  }
+  .beer-box {
+    margin: 30px auto;
+    width: 500px;
   }
 }

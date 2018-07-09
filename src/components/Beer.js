@@ -7,7 +7,7 @@ class Beer extends Component {
             <li className="beer">
                 <a href={`/beer/${this.props.id}`}>
                     <div className="beer-icon">
-                        <i className="fa fa-beer" aria-hidden="true"></i>
+                        <img className="beer-svg" src={`/imgs/0${Math.floor(Math.random() * 4) + 1}-beer.svg`} alt={`0${Math.floor(Math.random() * 4) + 1}-beer.svg`} />
                     </div>
                     <div className="beer-data">
                         <p className="beer-name">{this.props.name}</p>
